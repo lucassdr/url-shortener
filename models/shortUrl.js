@@ -9,7 +9,7 @@ const shortUrlSchema = new mongoose.Schema({
   short: {
     type: String,
     required: true,
-    default: 'lucassdr.com.br__URL__' + shortId.generate()
+    default: 'meu/' + shortId.generate()
   },
   clicks: {
     type: Number,
